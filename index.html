@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Weather App </title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d48a772d70.js" crossorigin="anonymous"></script>
+
 
 </head>
 <body>
@@ -19,11 +21,11 @@
 
         <div class="location-not-found">
             <h1>Sorry, Location not found!!!</h1>
-            <img src="./images/404.png" alt="404 Error">
+            <img src="/images/404.png" alt="404 Error">
         </div>
 
         <div class="weather-body">
-            <img src="./images/cloudd.png" alt="Weather Image" class="images">
+            <img src="/images/cloudd.png" alt="Weather Image" class="weather-img">
 
             <div class="weather-box">
                 <p class="temperature">0 <sup>°C</sup></p>
@@ -40,9 +42,9 @@
                 </div>
 
                 <div class="wind">
-                    <i class="fa-solid fa-wind"></i>
+                    <i class="fas fa-wind" id="wind-icon"></i>
                     <div class="text">
-                        <span id="wind-speed">12Km/H</span>
+                        <span id="wind">12Km/H</span>
                         <p>Wind Speed</p>
                     </div>
                 </div>
@@ -51,6 +53,5 @@
     </div>
 
     <script src="index.js"></script>
-    <script src="https://kit.fontawesome.com/d48a772d70.js" crossorigin="anonymous"></script>
 </body>
 </html>

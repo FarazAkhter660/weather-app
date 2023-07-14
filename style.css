@@ -7,6 +7,11 @@
     font-family: sans-serif;
 }
 
+.weather-body {
+    display: none;
+  }
+
+  
 body{
     min-height: 100vh;
     display: flex;
@@ -126,7 +131,7 @@ body{
 
 .location-not-found h1{
     font-size: 20px;
-    color: #6b6b6b;
+    color: #f27272;
     margin-block-end: 15px;
 }
 .location-not-found img{
